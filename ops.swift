@@ -8,6 +8,18 @@
     % modulo (divides and gives the remainder)
 */
 
+/*
+Swift supports the following comparison operators:
+
+    == Equal to
+    != Not Equal to
+    > Greater than
+    < Less than
+    >= Greater than or equal to
+    <= Less than or equal to
+
+*/
+
 
 Type
 

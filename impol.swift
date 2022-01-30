@@ -51,3 +51,21 @@ root2 = (-b - (b*b - 4*a*c).squareRoot()) / (2*a)
 // Outputting the roots
 print("Root 1 is \(root1)")
 print("Root 2 is \(root2)")
+
+
+
+
+// convert
+
+var pesos: Double = 4 // Pesos conversion rate: 0.00029
+var reais: Double = 5 // Reais conversion rate: 0.24
+var soles: Double = 6 // Soles conversion rate: 0.29
+
+var total: Double
+
+
+
+// total=rate1∗pesos+rate2∗reais+rate3∗soles
+total = 0.00029 * pesos + 0.24 * reais + 0.29 * soles
+
+print("Total USD = $\(total)")
